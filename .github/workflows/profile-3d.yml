@@ -1,17 +1,14 @@
-name: GitHub-Profile-3D-Contrib
-
+name: Auto 3D Contributions
 on:
   schedule:
-    - cron: "0 18 * * *" # Se ejecuta automáticamente todos los días
-  workflow_dispatch: # Te permite ejecutarlo manualmente cuando quieras
-
+    - cron: "30 5 * * *" # Hora alternativa de mañana
+  workflow_dispatch:
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: actions/checkout@v4
+      - uses: jasonlong/github-profile-3d-contrib@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
@@ -19,6 +16,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
+          git add .
+          git commit -m "Updated 3D Profile" || exit 0
           git push
