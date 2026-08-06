@@ -33,13 +33,9 @@
 
 # 👨‍💻 Sobre mí
 
-💻 Soy **Full Stack Developer** con especial interés en el desarrollo Backend con **.NET**.
+Soy Técnico Electrónico y estudiante avanzado de la Tecnicatura Universitaria en Programación en la UTN.
 
-🚀 Me gusta construir aplicaciones web escalables, desarrollar APIs REST y transformar ideas en soluciones funcionales.
-
-🧠 Actualmente profundizo mis conocimientos en **Clean Architecture**, **AWS**, **React** y herramientas de IA aplicadas al desarrollo.
-
-🤝 Disfruto trabajar en equipo utilizando Git, Pull Requests y metodologías ágiles, además de aprender continuamente nuevas tecnologías.
+Me apasiona el desarrollo de software, aprender nuevas tecnologías y transformar ideas en soluciones. Actualmente enfocado en crecer como Full Stack Developer, creando proyectos propios y mejorando continuamente mis habilidades.
 
 ---
 
