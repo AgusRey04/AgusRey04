@@ -209,12 +209,7 @@ Estoy trabajando en nuevos proyectos para seguir aprendiendo y compartirlos aqu�
 ---
 
 # 📊 GitHub Stats
-![Tus estadísticas de GitHub](https://vercel.app)
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=AgusRey04&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AgusRey04&layout=compact&theme=tokyonight&hide_border=true"/>
 
 <img src="https://streak-stats.demolab.com?user=AgusRey04&theme=tokyonight&hide_border=true"/>
 
