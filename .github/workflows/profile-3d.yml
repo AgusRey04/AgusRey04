@@ -2,7 +2,7 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *" # Se ejecuta automáticamente todos los días
+    - cron: "15 18 * * *" # Se ejecuta automáticamente todos los días
   workflow_dispatch: # Te permite ejecutarlo manualmente cuando quieras
 
 jobs:
